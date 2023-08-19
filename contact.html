@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9093998397507475"
+     crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+
+    
+
+    <header class="header">
+      <a href="/"><img  src="images/Brand.png" alt="logo" class="logo"  /></a>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a href="/" class="navbar-link home-link">Home</a></li>
+          <li>
+            <a href="/about.html" class="navbar-link about-link">About</a>
+          </li>
+          <li>
+            <a href="/service.html" class="navbar-link Services-link"
+              >Services</a
+            >
+          </li>
+          <li><a href="/#portfolio-section" class="navbar-link Portfolio-link">Portfolio</a></li>
+          <li>
+            <a href="/contact.html" class="navbar-link content-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="mobile-navbar-btn">
+        <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
+        <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
+      </div>
+    </header>
+
+ <!-- //loader start -->
+<div class="loader-wrapper">
+  <div class="loader"></div>
+</div>
+<!-- //loader end -->
+    <section class="section section-contact">
+      <div class="container">
+        <h2 class="common-heading">Contact Us</h2>
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.0053785394034!2d74.98930827573295!3d31.57890037418721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391bd7be1ad9dad7%3A0x49b928cd50a5cbb3!2sAmritsar%20college%20of%20engineering%20and%20technology!5e0!3m2!1sen!2sin!4v1682252172027!5m2!1sen!2sin"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div class="section-contact-main contact-container">
+        <form  action="https://formspree.io/f/xdoregda"
+        method="POST">
+          <div class="grid grid-two-column">
+            <div>
+              <label for="username"></label>
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Name"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <div>
+              <label for="email"></label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="demo@gmail.com"
+                autocomplete="off"
+                required
+              />
+            </div>
+          </div>
+          <div>
+            <label for="subject"></label>
+            <input
+              type="text"
+              name="subject"
+              placeholder="subject"
+              id="subject"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <div>
+            <label for="textarea"></label>
+            <textarea
+              name="textarea"
+              id="textarea"
+              cols="30"
+              rows="10"
+              autocomplete="off"
+              required
+              min="10"
+            ></textarea>
+          </div>
+          <div>
+            <input type="submit" name="submit" id="submit" class="btn" />
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer class="section-footer section">
+      <div class="container grid grid-four-column">
+        <div class="f-about">
+          <h3>About Us</h3>
+          <p>
+            At Techy Aman, we are dedicated to providing innovative solutions that empower individuals and businesses to
+            thrive in a rapidly evolving world. Our commitment to excellence drives us to create products and services
+            that exceed expectations, ensuring your success is our priority.
+          </p>
+        </div>
+  
+        <div class="f-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li>
+              <span><ion-icon name="arrow-forward-outline" class=""></ion-icon></span>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline" class=""></ion-icon></span>
+              <a href="/services">Services</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline" class=""></ion-icon></span>
+              <a href="/portfolio">Portfolio</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline" class=""></ion-icon></span>
+              <a href="/contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="f-services">
+          <h3>Our Services</h3>
+          <ul>
+            <li>
+              <span><ion-icon name="arrow-forward-outline" class=""></ion-icon></span>
+              <a href="/services/web-design">Web Design</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline" class=""></ion-icon></span>
+              <a href="/services/branding">Branding</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline" class=""></ion-icon></span>
+              <a href="/services/marketing">Marketing</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline" class=""></ion-icon></span>
+              <a href="/services/consulting">Consulting</a>
+            </li>
+          </ul>
+        </div>
+  
+        <!-- end -->
+        <div class="f-address">
+          <h3>Have a QuestionS?</h3>
+          <address>
+            <div>
+              <p>
+                <span>
+                  <ion-icon name="location-outline" class=""></ion-icon></span>
+                Mumbai,India
+              </p>
+            </div>
+            <div>
+              <p>
+                <span> <ion-icon name="call-outline" class=""></ion-icon></span>
+                <a href="tel:+918779105845">+91 8779105845</a>
+              </p>
+            </div>
+            <div>
+              <p>
+                <span> <ion-icon name="mail-outline" class=""></ion-icon></span>
+                <a href="mailto:mandalamankumar.786@gmail.com">mandalamankumar.786</a>
+              </p>
+            </div>
+          </address>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer-social-icons">
+          <a href="https://www.instagram.com/_aman._.mandal_/" target="_blank">
+            <ion-icon name="logo-instagram" class="icons"></ion-icon>
+          </a>
+          <a href="https://discord.com/" target="_blank">
+            <ion-icon name="logo-discord" class="icons"></ion-icon>
+          </a>
+          <a href="https://www.youtube.com/channel/UCcbpxtcx7U9-dr-jtVe5tzw" target="_blank">
+            <ion-icon name="logo-youtube" class="icons"></ion-icon>
+          </a>
+        </div>
+        <div class="f-credits">
+          <p>Copyright © 2023 Techy Aman. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="loader.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  </body>
+</html>

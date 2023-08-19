@@ -1,109 +1,710 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aman Mandal</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <img src="images/Brand.png" alt="logo" class="logo" />
-      <nav class="navbar">
-        <ul class="navbar-list">
-          <li><a href="#" class="navbar-link home-link">Home</a></li>
-          <li><a href="#" class="navbar-link about-link">About</a></li>
-          <li><a href="" class="navbar-link Services-link">Services</a></li>
-          <li><a href="" class="navbar-link Portfolio-link">Portfolio</a></li>
-          <li><a href="" class="navbar-link content-link">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
 
-    <!-- our main section start -->
-    <main>
-      <section class="section-hero section">
-        <div class="container grid grid-two-column">
-          <div class="section-hero-data">
-            <p class="hero-top-data">This is me</p>
-            <h1 class="hero-heading">Aman Mandal</h1>
-            <p class="hero-para">
-              I'm aman mandal.A Full stack Developer,Freelancer. Lorem ipsum,
-              dolor sit amet consectetur adipisicing elit. Ab labore minus
-              explicabo maiores nesciunt amet?
-            </p>
-            <div class="">
-              <a href="#" class="btn hireme-btn">Hire me</a>
-            </div>
-          </div>
-          <div class="section-hero-image">
-            <img src="images/hero.jpg" alt="main-hero" class="hero-image" />
-          </div>
-        </div>
-      </section>
-    </main>
-    <!-- our main service end -->
-    <!-- our biodata section start -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="My portfolio website to showcase the work I have done so far." />
+  <meta name="keywords" content="HTML, CSS, JavaScript,portfolio website" />
+  <meta name="author" content="Aman Mandal" />
+  <title>Aman Mandal</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon//favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon//favicon-16x16.png" />
+  <link rel="manifest" href="images/favicon//site.webmanifest" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <section class="section-biodata section">
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="index.js"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9093998397507475"
+     crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="header">
+    <a href="/"><img  src="images/Brand.png" alt="logo" class="logo"  /></a>
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li><a href="#" class="navbar-link home-link">Home</a></li>
+        <li>
+          <a href="/about.html" class="navbar-link about-link">About</a>
+        </li>
+        <li>
+          <a href="/service.html" class="navbar-link Services-link">Services</a>
+        </li>
+        <li><a href="#portfolio-section" class="navbar-link Portfolio-link">Portfolio</a></li>
+        <li>
+          <a href="/contact.html" class="navbar-link content-link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="mobile-navbar-btn">
+      <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
+      <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
+    </div>
+  </header>
+
+  <!-- our main section start -->
+  <main>
+    <section class="section-hero section">
       <div class="container grid grid-two-column">
-        <div class="bio-image">
-          <img src="images/biodata.jpg" alt="biodata" />
-        </div>
-        <!-- bio right side data -->
-        <div class="bio-data">
-          <h2 class="common-heading">My bio-Data</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eaque
-            eum unde aut corrupti perferendis neque est ratione reiciendis
-            
+        <div class="section-hero-data">
+          <p class="hero-top-data">This is me</p>
+          <h1 class="hero-heading">Aman Mandal</h1>
+          <p class="hero-para">
+            As a full-stack developer, I have a passion for creating
+            innovative solutions that bridge the gap between front-end and
+            back-end development. With a deep understanding of both
+            client-side and server-side technologies, I am able to bring
+            projects to life from concept to deployment
           </p>
-          <br />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius
-            animi deserunt consequatur 
-          </p>
-
-          <div class="bio-data-stats">
-            <div class="bio-stats">
-                <h3>Design</h3>
-                <div class="bio-progress-bar">
-                  <span>80%</span>
-                </div>
-            </div>
-            
-            <div class="bio-stats">
-                <h3>HTML</h3>
-                <div class="bio-progress-bar bio-progress-2">
-                  <span>90%</span>
-                </div>
-            </div>
-            <div class="bio-stats">
-                <h3>CSS</h3>
-                <div class="bio-progress-bar bio-progress-3">
-                  <span>80%</span>
-                </div>
-            </div>
-            <div class="bio-stats">
-                <h3>JAVASCRIPT</h3>
-                <div class="bio-progress-bar bio-progress-4">
-                  <span>80%</span>
-                </div>
-            </div>
-            <div class="bio-stats">
-                <h3>MERN</h3>
-                <div class="bio-progress-bar bio-progress-5">
-                  <span>70%</span>
-                </div>
-            </div>
-          </div>
-          <div class="bio-data-btn">
-            <a href="#" class="btn">Download CV</a>
+          <div class="">
+            <a href="/contact.html" class="btn hireme-btn">Hire me</a>
           </div>
         </div>
-        
+        <div class="section-hero-image">
+          <img src="images/mybanner.jfif" alt="main-hero" class="hero-image" />
+        </div>
       </div>
     </section>
-  </body>
+  </main>
+<!-- //loader start -->
+<div class="loader-wrapper">
+  <div class="loader"></div>
+</div>
+<!-- //loader end -->
+
+  <!-- our main service end -->
+  <!-- our biodata section start -->
+
+  <section class="section-biodata section">
+    <div class="container grid grid-two-column">
+      <div class="bio-image">
+        <img class="lazy-img" src="images/portfolio.jpg" alt="biodata" loading="lazy" />
+      </div>
+      <!-- bio right side data -->
+      <div class="bio-data">
+        <h2 class="common-heading">About Me</h2>
+        <p>
+          Greetings! I'm Aman Mandal, a computer science enthusiast currently
+          pursuing a B.Tech degree in Computer Science. My passion lies in the
+          dynamic world of web development, particularly the exciting MERN
+          stack. I'm committed to harnessing technology to create innovative
+          and user-friendly digital experiences.
+        </p>
+        <br />
+        <p>
+          Throughout my academic journey, I've not only gained a solid
+          foundation in computer science principles but also cultivated a deep
+          interest in crafting elegant and functional web solutions. My goal
+          is to bridge the gap between technical excellence and seamless user
+          experiences.
+        </p>
+
+        <div class="bio-data-stats">
+          <div class="bio-stats">
+            <h3>Web Design</h3>
+            <div class="bio-progress-bar">
+              <span>80%</span>
+            </div>
+          </div>
+
+          <div class="bio-stats">
+            <h3>HTML</h3>
+            <div class="bio-progress-bar bio-progress-2">
+              <span>90%</span>
+            </div>
+          </div>
+          <div class="bio-stats">
+            <h3>CSS</h3>
+            <div class="bio-progress-bar bio-progress-3">
+              <span>80%</span>
+            </div>
+          </div>
+          <div class="bio-stats">
+            <h3>JAVASCRIPT</h3>
+            <div class="bio-progress-bar bio-progress-4">
+              <span>80%</span>
+            </div>
+          </div>
+          <div class="bio-stats">
+            <h3>MERN</h3>
+            <div class="bio-progress-bar bio-progress-5">
+              <span>70%</span>
+            </div>
+          </div>
+        </div>
+        <div class="bio-data-btn">
+          <a href="/AmanResume.pdf"
+            target="_blank" download class="btn" download>Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- our Portfolio section start -->
+  <section class="section section-portfolio" id="portfolio-section">
+    <div class="container">
+      <h2 class="common-heading">Latest Work</h2>
+      <p>
+        Welcome to my portfolio! Here's a showcase of some recent projects
+        that I've worked on. Each project reflects my passion for creativity
+        and attention to detail.
+      </p>
+    </div>
+    <div class="p-btns">
+      <div class="btn p-btn" data-btn-num="1">Website</div>
+      <div class="btn p-btn" data-btn-num="2">Youtube</div>
+      <div class="btn p-btn" data-btn-num="3">Design</div>
+    </div>
+    <div class="container grid grid-three-column portfolio-images">
+      <div class="img-overlay p-btn--1">
+        <img src="images/p4.jpg" alt="my Work" loading="lazy" />
+        <div class="overlay">
+          <a href="https://lxdev-3hgedkczdq-uw.a.run.app/" target="_blank" class="common-heading">LaunchX</a>
+        </div>
+      </div>
+      <div class="img-overlay p-btn--3">
+        <img src="images/p2.jpg" alt="my Work" loading="lazy" />
+        <div class="overlay">
+          <a href="https://icmulnk57.github.io/myreactwebsite/" target="_blank" class="common-heading">Project 2</a>
+        </div>
+      </div>
+      <div class="img-overlay p-btn--1">
+        <img src="images/p3.jpg" alt="my Work" loading="lazy" />
+        <div class="overlay">
+          <a href="https://taskmanagerbyaman.netlify.app/" target="_blank" class="common-heading">Project 3</a>
+        </div>
+      </div>
+      <div class="img-overlay p-btn--1 p-btn--2">
+        <img src="images/p4.jpg" alt="my Work" loading="lazy" />
+        <div class="overlay">
+          <a href="https://addressbookmanagerbyaman.netlify.app/" target="_blank" class="common-heading">Project 4</a>
+        </div>
+      </div>
+      <div class="img-overlay p-btn--1 p-btn--2">
+        <img src="images/p2.jpg" alt="my Work" loading="lazy" />
+        <div class="overlay">
+          <a href="https://icmulnk57.github.io/myreactwebsite/" target="_blank" class="common-heading">Project 5</a>
+        </div>
+      </div>
+      <div class="img-overlay p-btn--1 p-btn--2">
+        <img src="images/p3.jpg" alt="my Work" loading="lazy" />
+        <div class="overlay">
+          <a href="https://icmulnk57.github.io/myreactwebsite/" target="_blank" class="common-heading">Project 6</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ======================================== 
+          Our Resume Section Start  
+    ========================================  -->
+  <section class="section-resume section ">
+    <div class="container grid grid-two-col">
+      <!-- resume left side  -->
+      <!-- <div class="resume-img">
+          <img src="images/lazy1.jpg" alt="my resume pic" 
+            data-src="images/biodata.jpg"
+            loading="lazy"
+            class="lazy-img"
+          />
+        </div> -->
+
+      <!-- resume right side  -->
+      <div class="resume-data">
+        <h2 class="common-heading">resume</h2>
+        <p class="resume-para">my work experience</p>
+
+        <div class="resume-data-subsection">
+          <div class="resume-data-left">
+            <h3>Full stack developer intern</h3>
+            <div class="grid grid-two-col">
+              <p>
+                <ion-icon name="business-outline"></ion-icon> WebMobi, Inc.
+              </p>
+              <p>
+                <ion-icon name="location-outline"></ion-icon> Remote, california
+              </p>
+            </div>
+          </div>
+
+          <div class="resume-data-right">
+            <p class="resume-data-button">fulltime</p>
+            <p>
+              <ion-icon name="calendar-outline"></ion-icon> <span>May 2023 - Present </span>
+            </p>
+          </div>
+        </div>
+
+
+        <!-- 2nd college  -->
+        <div class="resume-data-subsection ">
+          <div class="resume-data-left">
+            <h3>Bachelor in Computer Science</h3>
+            <div class="grid grid-two-col">
+              <p>
+                <ion-icon name="business-outline"></ion-icon> Amritsar College Of Engineering & Technology.
+              </p>
+              <p>
+                <ion-icon name="location-outline"></ion-icon> Amritsar,Punjab
+              </p>
+            </div>
+          </div>
+
+          <div class="resume-data-right">
+            <p class="resume-data-button"> Bachelor </p>
+            <p>
+              <ion-icon name="calendar-outline"></ion-icon> <span>May 2020 - 2024 </span>
+            </p>
+          </div>
+        </div>
+        <!-- end  -->
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+  <!-- our work counter section start -->
+
+  <section class="section section-work-data">
+    <div class="container grid grid-four-column">
+      <div>
+        <h2 class="counter-number" data-number="100">0+</h2>
+        <p>project completed</p>
+      </div>
+      <div>
+        <h2 class="counter-number" data-number="500">0+</h2>
+        <p>happy client</p>
+      </div>
+      <div>
+        <h2 class="counter-number" data-number="1000">0+</h2>
+        <p>cups of coffee</p>
+      </div>
+      <div>
+        <h2 class="counter-number" data-number="150">0+</h2>
+        <p>real professional</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- our work counter section end -->
+
+  <!-- our sevices section start -->
+  <section class="section section-services">
+    <div class="container">
+      <h2 class="common-heading">Service offers</h2>
+      <p>
+        At Techy Aman, we offer a range of high-quality services designed to meet your unique needs. Our team
+        of experts is dedicated to delivering exceptional results that exceed your expectations. Explore our services
+        and discover how we can help you succeed.
+      </p>
+      <!-- services offer cards -->
+      <div class="container grid grid-three-column">
+        <div class="service-box">
+          <ion-icon name="desktop-outline" class="service-icon"></ion-icon>
+          <h3>Web Design</h3>
+          <p>
+            Creative web designs that blend aesthetics and functionality for exceptional user experiences.
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="logo-web-component" class="service-icon"></ion-icon>
+          <h3>Web Development</h3>
+          <p>
+            Transforming ideas into responsive websites and applications with clean, efficient code.
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="desktop-outline" class="service-icon"></ion-icon>
+          <h3>Photography</h3>
+          <p>
+            Capturing moments through a lens, turning memories into art with our expert photography.
+          </p>
+        </div>
+        <div class="service-box">
+          <ion-icon name="phone-portrait-outline" class="service-icon"></ion-icon>
+          <h3>Mobile Apps</h3>
+          <p>
+            Crafting intuitive mobile apps that engage users and deliver seamless experiences.
+          
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="apps-outline" class="service-icon"></ion-icon>
+          <h3>apps inheritance</h3>
+          <p>
+            Creative App designs that blend aesthetics and functionality for exceptional user experiences.
+        </p>
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="desktop-outline" class="service-icon"></ion-icon>
+          <h3>Graphic Design</h3>
+          <p>
+            Designing impactful visuals that communicate your brand's essence across all mediums.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- our testimonial section start -->
+  <!-- Swiper -->
+  <section class="section section-testimonial">
+    <div class="container">
+      <h2 class="common-heading">Happy Client Work</h2>
+    </div>
+    <div class="swiper mySwiper container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="swiper-client-msg">
+            <p>
+              Working with you was a transformative experience. Your
+              exceptional web design and development skills turned my vision
+              into a reality. The attention to detail and dedication to user
+              experience exceeded my expectations.
+            </p>
+          </div>
+          <div class="swiper-client-data grid grid-two-column">
+            <figure>
+              <img src="/images/clients/a.jpg" alt="client review" />
+            </figure>
+            <div class="client-data-details">
+              <p>Zhang</p>
+              <p>Enterpreneur</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="swiper-client-msg">
+            <p>
+              "Collaborating with you was a game-changer. Your creative
+              prowess and technical finesse brought my project to life. Your
+              commitment to delivering an outstanding user experience exceeded
+              my expectations."
+            </p>
+          </div>
+          <div class="swiper-client-data grid grid-two-column">
+            <figure>
+              <img src="/images/clients/b.jpg" alt="client review" />
+            </figure>
+            <div class="client-data-details">
+              <p>Amelia</p>
+              <p>Enterpreneur</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="swiper-client-msg">
+            <p>
+              "Incredible work that speaks volumes! Your web design and
+              development prowess brought my dream project to life. Your
+              commitment to creating a seamless user journey is
+              awe-inspiring."
+            </p>
+          </div>
+          <div class="swiper-client-data grid grid-two-column">
+            <figure>
+              <img src="/images/clients/c.jpg" alt="client review" />
+            </figure>
+            <div class="client-data-details">
+              <p>Evelyn</p>
+              <p>Enterpreneur</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="swiper-client-msg">
+            <p>
+              "Collaborating with you was truly remarkable. Your exceptional
+              web design and development expertise brought my vision to life.
+              The meticulous attention to detail and unwavering dedication to
+              user experience surpassed all expectations."
+            </p>
+          </div>
+          <div class="swiper-client-data grid grid-two-column">
+            <figure>
+              <img src="/images/clients/d.jpg" alt="client review" />
+            </figure>
+            <div class="client-data-details">
+              <p>Mark Thomas</p>
+              <p>Enterpreneur</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="swiper-client-msg">
+            <p>
+              "Your creativity and expertise brought my project to life in
+              ways I couldn't have imagined. Your commitment to excellence and
+              seamless collaboration made the entire process a pleasure."
+            </p>
+          </div>
+          <div class="swiper-client-data grid grid-two-column">
+            <figure>
+              <img src="/images/clients/e.jpg" alt="client review" />
+            </figure>
+            <div class="client-data-details">
+              <p>Emma</p>
+              <p>Enterpreneur</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="swiper-client-msg">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+              non illo eum quasi dignissimos, praesentium ipsam doloremque
+              quis natus reprehenderit.
+            </p>
+          </div>
+          <div class="swiper-client-data grid grid-two-column">
+            <figure>
+              <img src="/images/clients/f.jpg" alt="client review" />
+            </figure>
+            <div class="client-data-details">
+              <p>Jack</p>
+              <p>Enterpreneur</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="swiper-client-msg">
+            <p>
+              "Collaborating with you was truly remarkable. Your exceptional
+              web design and development expertise brought my vision to life.
+              The meticulous attention to detail and unwavering dedication to
+              user experience surpassed all expectations."
+            </p>
+          </div>
+          <div class="swiper-client-data grid grid-two-column">
+            <figure>
+              <img src="/images/clients/g.jpg" alt="client review" />
+            </figure>
+            <div class="client-data-details">
+              <p>Sophia</p>
+              <p>Enterpreneur</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="swiper-client-msg">
+            <p>
+              "Collaborating with you was a game-changer. Your exceptional web
+              design and development skills brought my vision to life. The
+              meticulous attention to detail and focus on user experience
+              surpassed my expectations."
+            </p>
+          </div>
+          <div class="swiper-client-data grid grid-two-column">
+            <figure>
+              <img src="/images/clients/h.jpg" alt="client review" />
+            </figure>
+            <div class="client-data-details">
+              <p>Alen Walker</p>
+              <p>Enterpreneur</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="swiper-client-msg">
+            <p>
+              "Your creativity and expertise brought my project to life in
+              ways I couldn't have imagined. Your commitment to excellence and
+              seamless collaboration made the entire process a pleasure."
+            </p>
+          </div>
+          <div class="swiper-client-data grid grid-two-column">
+            <figure>
+              <img src="/images/clients/e.jpg" alt="client review" />
+            </figure>
+            <div class="client-data-details">
+              <p>Natasha</p>
+              <p>Enterpreneur</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- freelancing section start -->
+
+  <section class="section section-freelancing">
+    <div class="overlay"></div>
+    <div class="container">
+      <h2>I am <span>available</span> for freelancing</h2>
+
+      <p>
+        As a seasoned freelancer with a passion for design and development,
+        I'm ready to bring your ideas to life. With a strong focus on
+        user-centered solutions and attention to detail, I can help you create
+        stunning websites and web applications that leave a lasting
+        impression.
+      </p>
+      <a href="/contact.html" class="btn">HIRE ME</a>
+    </div>
+  </section>
+
+  <!-- contact us section start -->
+  <section class="section section-contact" id="contact">
+    <div class="container">
+      <h2 class="common-heading">Contact Us</h2>
+    </div>
+    <div class="section-contact-main contact-container">
+      <form action="https://formspree.io/f/xdoregda" method="POST">
+        <div class="grid grid-two-column">
+          <div>
+            <label for="username"></label>
+            <input type="text" name="username" id="username" placeholder="Name" autocomplete="off" required />
+          </div>
+          <div>
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="demo@gmail.com" autocomplete="off" required />
+          </div>
+        </div>
+        <div>
+          <label for="subject"></label>
+          <input type="text" name="subject" placeholder="subject" id="subject" autocomplete="off" required />
+        </div>
+        <div>
+          <label for="textarea"></label>
+          <textarea placeholder="write your message" name="textarea" id="textarea" cols="30" rows="10"
+            autocomplete="off" required min="10"></textarea>
+        </div>
+        <div>
+          <input type="submit" name="submit" id="submit" class="btn" />
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="section-footer section">
+    <div class="container grid grid-four-column">
+      <div class="f-about">
+        <h3>About Us</h3>
+        <p>
+          At Techy Aman, we are dedicated to providing innovative solutions that empower individuals and businesses to
+          thrive in a rapidly evolving world. Our commitment to excellence drives us to create products and services
+          that exceed expectations, ensuring your success is our priority.
+        </p>
+      </div>
+
+      <div class="f-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li>
+            <span><ion-icon name="arrow-forward-outline" class=""></ion-icon></span>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <span><ion-icon name="arrow-forward-outline" class=""></ion-icon></span>
+            <a href="/services">Services</a>
+          </li>
+          <li>
+            <span><ion-icon name="arrow-forward-outline" class=""></ion-icon></span>
+            <a href="/portfolio">Portfolio</a>
+          </li>
+          <li>
+            <span><ion-icon name="arrow-forward-outline" class=""></ion-icon></span>
+            <a href="/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="f-services">
+        <h3>Our Services</h3>
+        <ul>
+          <li>
+            <span><ion-icon name="arrow-forward-outline" class=""></ion-icon></span>
+            <a href="/services/web-design">Web Design</a>
+          </li>
+          <li>
+            <span><ion-icon name="arrow-forward-outline" class=""></ion-icon></span>
+            <a href="/services/branding">Branding</a>
+          </li>
+          <li>
+            <span><ion-icon name="arrow-forward-outline" class=""></ion-icon></span>
+            <a href="/services/marketing">Marketing</a>
+          </li>
+          <li>
+            <span><ion-icon name="arrow-forward-outline" class=""></ion-icon></span>
+            <a href="/services/consulting">Consulting</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- end -->
+      <div class="f-address">
+        <h3>Have a QuestionS?</h3>
+        <address>
+          <div>
+            <p>
+              <span>
+                <ion-icon name="location-outline" class=""></ion-icon></span>
+              Mumbai,India
+            </p>
+          </div>
+          <div>
+            <p>
+              <span> <ion-icon name="call-outline" class=""></ion-icon></span>
+              <a href="tel:+918779105845">+91 8779105845</a>
+            </p>
+          </div>
+          <div>
+            <p>
+              <span> <ion-icon name="mail-outline" class=""></ion-icon></span>
+              <a href="mailto:mandalamankumar.786@gmail.com">mandalamankumar.786</a>
+            </p>
+          </div>
+        </address>
+      </div>
+    </div>
+    <div class="container">
+      <div class="footer-social-icons">
+        <a href="https://www.instagram.com/_aman._.mandal_/" target="_blank">
+          <ion-icon name="logo-instagram" class="icons"></ion-icon>
+        </a>
+        <a href="https://discord.com/" target="_blank">
+          <ion-icon name="logo-discord" class="icons"></ion-icon>
+        </a>
+        <a href="https://www.youtube.com/channel/UCcbpxtcx7U9-dr-jtVe5tzw" target="_blank">
+          <ion-icon name="logo-youtube" class="icons"></ion-icon>
+        </a>
+      </div>
+      <div class="f-credits">
+        <p>Copyright © 2023 Techy Aman. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+ 
+  <script src="loader.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+ 
+  
+</body>
+
 </html>
