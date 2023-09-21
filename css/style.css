@@ -871,6 +871,17 @@ footer a:hover,footer a:active{
   position: relative;
 }
 
+pre {
+  background-color: #0dcaf0;
+  opacity: 1;
+  color: #000; /* White text color */
+  padding: 10px; /* Optional padding for better readability */
+  width: 50rem;
+  font-size: 1.7rem;
+  border-radius: 10px;
+  font-family: Courier, monospace; /* Monospaced font for code */
+}
+
 
 
 
