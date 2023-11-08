@@ -729,7 +729,8 @@ Resume Section
 /* freelancing section start */
 /* parral effect */
 .section-freelancing{
-  background-image: url('../images/folio/3.jpg');
+  /* background-image: url('../images/folio/3.jpg'); */
+  background-image: url('../images/earth.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   text-align: center;
@@ -742,7 +743,8 @@ Resume Section
   left: 0;
   width: 100%;
   height: 100%;
-  background-color:#3e64ff;
+  /* background-color:#3e64ff; */
+  background-color:transparent;
   opacity: 0.7;
 }
 .section-freelancing .container{
